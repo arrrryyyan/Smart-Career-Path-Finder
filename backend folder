@@ -1,0 +1,19 @@
+backend/
+├── src/main/java/com/smartcareerpathfinder/  # Java code
+│   ├── controller/        # Controllers for REST APIs
+│   │   ├── UserController.java
+│   │   ├── RecommendationController.java
+│   ├── model/             # Entity models
+│   │   ├── User.java
+│   │   ├── CareerPath.java
+│   ├── service/           # Business logic
+│   │   ├── UserService.java
+│   │   ├── RecommendationService.java
+│   ├── repository/        # Database access
+│   │   ├── UserRepository.java
+│   ├── SmartCareerPathFinderApplication.java # Main Spring Boot app
+├── src/main/resources/    # Configuration and assets
+│   ├── application.properties  # App configuration
+│   ├── data.sql           # Initial SQL data (optional)
+├── pom.xml                # Maven dependencies
+├── target/                # Compiled files (excluded via `.gitignore`)
