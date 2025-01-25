@@ -1,0 +1,19 @@
+# Node.js
+frontend/node_modules/
+frontend/build/
+
+# Java
+backend/target/
+
+# Python
+ai-microservice/__pycache__/
+ai-microservice/*.pyc
+
+# IDE files
+.idea/
+.vscode/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
