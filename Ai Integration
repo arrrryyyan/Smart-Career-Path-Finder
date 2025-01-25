@@ -1,0 +1,8 @@
+ai-microservice/
+├── app.py                 # Flask/FastAPI app
+├── model/                 # AI/ML models
+│   ├── model.pkl          # Trained model file
+│   ├── tokenizer.pkl      # Preprocessing (optional)
+├── requirements.txt       # Python dependencies
+├── tests/                 # Test cases (optional)
+│   ├── test_app.py
