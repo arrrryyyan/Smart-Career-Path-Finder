@@ -1,0 +1,21 @@
+frontend/
+├── public/                # Static files
+│   ├── index.html
+│   ├── favicon.ico
+├── src/                   # Source code
+│   ├── components/        # Reusable UI components
+│   │   ├── Navbar.js
+│   │   ├── Footer.js
+│   ├── pages/             # Pages of the app
+│   │   ├── LoginPage.js
+│   │   ├── Dashboard.js
+│   │   ├── CareerRecommendation.js
+│   ├── services/          # Axios API calls
+│   │   ├── api.js
+│   ├── App.js             # Main app component
+│   ├── index.js           # Entry point
+│   ├── styles.css         # Tailwind CSS or custom styles
+├── package.json           # Node.js dependencies
+├── package-lock.json      # Locked versions of dependencies
+├── tailwind.config.js     # Tailwind CSS configuration
+├── postcss.config.js      # PostCSS configuration
