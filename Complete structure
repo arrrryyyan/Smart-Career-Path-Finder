@@ -1,0 +1,19 @@
+smart-career-path-finder/
+├── .gitignore
+├── README.md
+├── LICENSE (optional)
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+├── backend/
+│   ├── src/main/java/com/smartcareerpathfinder/
+│   ├── src/main/resources/
+│   ├── pom.xml
+├── ai-microservice/
+│   ├── app.py
+│   ├── model/
+│   ├── requirements.txt
